@@ -13,23 +13,13 @@ import java.util.List;
  *
  * @author michaelgoldman
  */
-public class CMPU203Data1 {
+public class Data1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        List<Integer> tester = createSet();
-        System.out.println(tester);
-        add(tester, 3);
-        add(tester, 5);
-        add(tester, 9);
-        add(tester, 3);
-        add(tester, (int) (Math.random()*100));
-        System.out.println(member(tester, 3));
-        System.out.println(member(tester, 4));
-        System.out.println(tester);
-        
+        System.out.println(BST.empty());
         return;    }
              
     public static List<Integer> createSet() {
